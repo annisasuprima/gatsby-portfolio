@@ -3,7 +3,7 @@ title: PEMBANGUNAN SISTEM INFORMASI PENGUSULAN DAN PEMINJAMAN ASET BERBASIS MOBI
 tags: ['laravel', 'android Studio', 'mobile', 'website']
 category: tugas-akhir
 image: './logo-panjang-new.png'
-date: "2023-27-02T22:12:03.284Z"
+date: "2023-02-27T22:12:03.284Z"
 description: "Departemen Sistem Informasi memiliki cukup banyak aset, sehingga dibutuhkan
 pengelolaan aset yang maksimal. Saat ini pengelolaan Aset di Departemen Sistem
 Informasi seperti proses pengusulan aset dan peminjaman aset masih dilakukan
@@ -11,7 +11,6 @@ secara konvensional, dengan cara memberikan surat permintaan pengusulan
 ataupun peminjaman kepada penanggung jawab aset yang dituju."
 ---
 
-<p style="text-align:justify">
 Departemen Sistem Informasi memiliki cukup banyak aset, sehingga dibutuhkan
 pengelolaan aset yang maksimal. Saat ini pengelolaan Aset di Departemen Sistem
 Informasi seperti proses pengusulan aset dan peminjaman aset masih dilakukan
@@ -32,7 +31,7 @@ pengusulan dan peminjaman aset berbasis mobile pada departemen sistem
 informasi universitas andalas telah berhasil dibangun untuk mengatasi persoalan
 terkait proses pengelolaan aset dan proses permintaan peminjaman dan
 pengusulan aset pada Departemen Sistem Informasi Universitas Andalas.
-</p>
+
 
 
 Aplikasi ini memiliki beberapa functional diantaranya : 

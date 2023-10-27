@@ -76,7 +76,7 @@ const About = () => {
             >
               <img
                 src="about.jpg"
-                style={{ width: "400px", height: "450px", objectFit: "cover" }}
+                style={{ width: "350px", height: "400px", objectFit: "cover" }}
               />
               {/* <Avatar fluid={data.placeholderImage.childImageSharp.fluid} alt="user photo" /> */}
               {/* <ParticleImage
@@ -101,7 +101,7 @@ const About = () => {
                 Fresh Graduate{" "}
                 <b className="text-primary lined-link">Sarjana Komputer</b>{" "}
               </Text>
-              <Text style={{ textAlign: "justify" }}>
+              <Text>
                 Lulusan S1 Sistem Informasi Universitas Andalas. Terbiasa
                 menggunakan paradigma OOP, memiliki pengalaman dalam pembuatan
                 website menggunakan laravel dan mobile development menggunakan

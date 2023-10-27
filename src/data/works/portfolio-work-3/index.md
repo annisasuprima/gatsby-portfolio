@@ -13,7 +13,7 @@ melalui Micrososft Excel, untuk itu pengelolaan tersebut dapat di
 implementasikan sistem informasi. "  
 ---
 
-<p style="text-align:justify;">Kantor Badan Penanggulangan Bencana Daerah (BPBD Sumatera Barat)
+Kantor Badan Penanggulangan Bencana Daerah (BPBD Sumatera Barat)
 merupakan instansi pemerintah yang melaksanakan tugas penanggulangan
 bencana di daerah Provinsi Sumatera Barat. BPBD Sumatera Barat
 melaksanakan kegiatan pencegahan melalui pendekatan hukum dan pengawasan
@@ -37,7 +37,7 @@ dengan menggunakan framework Laravel serta DBMS MySQL untuk basis data.
 Output yang diharapkan dari pembangunan aplikasi ini adalah mempermudah
 pihak BPBD Sumatera Barat dalam pengumpulan data barang ataupun transaksi
 barang masuk dan keluar, serta pembuatan rekap berita masuk dan berita keluar
-serta print berita acara masuk dan keluar yang ada di organisasi tersebut </p>
+serta print berita acara masuk dan keluar yang ada di organisasi tersebut
 
 Berikut saya lampirkan beberapa functional aplikasi logistik: 
 <div style="max-width: 1000px; display:flex; flex-warp: warp; gap:20px; margin: 0 auto; padding-top: 20px">
