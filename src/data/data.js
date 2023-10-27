@@ -1,9 +1,9 @@
 module.exports = {
-  SiteTitle: 'Abdelali',
+  SiteTitle: 'AnnisaSuprima',
   Sitelogo: '#',
-  SiteLogoText: 'Abdelali',
-  SiteAuthor: 'Abdelali Dahir',
-  SiteDescription: 'Full Stack Developer',
+  SiteLogoText: 'AS',
+  SiteAuthor: 'Annisa Suprima',
+  SiteDescription: 'Web Developer',
   defaultDescription: 'Software engineer!', 
   githubApiQuery: `query ($number_of_repos: Int!) {
     viewer {
@@ -42,19 +42,19 @@ module.exports = {
     number_of_repos: 12,
   }, 
   SiteSocialLinks: {
-    twitter: 'https://twitter.com/AbdaliDahirr',
-    github: 'https://github.com/AbdaliDahir',
-    linkedin: 'https://www.linkedin.com/in/abdelali-dahir-0b5344111/',
+    instagram: 'https://www.instagram.com/annisasuprima/',
+    github: 'https://github.com/annisasuprima/',
+    linkedin: 'https://www.linkedin.com/in/annisasuprima',
   },
   SiteAddress: {
-    city: 'Casablanca',
-    region: 'Test',
-    country: 'Morocco',
-    zipCode: 'ZipCode',
+    city: 'Solok',
+    region: 'Sumatera Barat',
+    country: 'Indonesia',
+    zipCode: '27361',
   },
   SiteContact: {
-    email: 'abdali.dahir@gmail.com',
-    phone: 'phone number',
+    email: 'annisa.suprima@gmail.com',
+    phone: '082285265855',
   },
-  SiteCopyright: '2020',
+  SiteCopyright: '2023',
 };

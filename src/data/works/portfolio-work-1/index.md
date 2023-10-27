@@ -1,43 +1,59 @@
 ---
-title: League of Legends
-tags: ['Adobe xd', 'css', 'js', 'dashboard']
-category: mobile-ui
-image: './salty_egg.jpg'
-date: "2015-05-01T22:12:03.284Z"
-description: "League of Legends is a multiplayer online battle arena video game developed and published by Riot Games for Microsoft Windows and macOS. Inspired by Defense of the Ancients, the game follows a freemium model. The game was released on October 27, 2009"
+title: PEMBANGUNAN SISTEM INFORMASI PENGUSULAN DAN PEMINJAMAN ASET BERBASIS MOBILE PADA DEPARTEMEN SISTEM INFORMASI UNIVERSITAS ANDALAS
+tags: ['laravel', 'android Studio', 'mobile', 'website']
+category: tugas-akhir
+image: './logo-panjang-new.png'
+date: "2023-27-02T22:12:03.284Z"
+description: "Departemen Sistem Informasi memiliki cukup banyak aset, sehingga dibutuhkan
+pengelolaan aset yang maksimal. Saat ini pengelolaan Aset di Departemen Sistem
+Informasi seperti proses pengusulan aset dan peminjaman aset masih dilakukan
+secara konvensional, dengan cara memberikan surat permintaan pengusulan
+ataupun peminjaman kepada penanggung jawab aset yang dituju."
 ---
 
+<p style="text-align:justify">
+Departemen Sistem Informasi memiliki cukup banyak aset, sehingga dibutuhkan
+pengelolaan aset yang maksimal. Saat ini pengelolaan Aset di Departemen Sistem
+Informasi seperti proses pengusulan aset dan peminjaman aset masih dilakukan
+secara konvensional, dengan cara memberikan surat permintaan pengusulan
+ataupun peminjaman kepada penanggung jawab aset yang dituju. Namun, hal ini
+tentunya tidak efektif, karena ada kalanya penanggung jawab aset kewalahan
+dalam menanggapi proses permintaan yang terlalu banyak, sehingga mengalami
+kesulitan dalam mendapatkan informasi mengenai permintaan aset sebelum-
+sebelumnya, karena bisa saja surat hilang dan rusak. Untuk mengatasi masalah
+tersebut dibangunlah sebuah sistem informasi yang memudahkan admin dan
+pengguna dalam melakukan pengelolaan aset, pengusulan aset dan peminjaman
+aset secara efektif dan efisien. Sistem informasi ini dikembangkan dengan metode
+waterfall dan berjalan pada platform mobile dengan menggunakan sistem operasi
+android. Dari hasil pengujian yang telah dilakukan terhadap semua fungsional
+pada masing-masing aktor dapat disimpulkan bahwa semua fungsional pada
+aplikasi ini berjalan dengan baik. Sehingga, pembangunan sistem informasi
+pengusulan dan peminjaman aset berbasis mobile pada departemen sistem
+informasi universitas andalas telah berhasil dibangun untuk mengatasi persoalan
+terkait proses pengelolaan aset dan proses permintaan peminjaman dan
+pengusulan aset pada Departemen Sistem Informasi Universitas Andalas.
+</p>
 
-Choose Your Champion
---------------------------
-Whether you like to dive straight into the fray, support your teammates, or something in between, there’s a spot for you on the Rift.
 
-Assassin
+Aplikasi ini memiliki beberapa functional diantaranya : 
+1. Melakukan peminjaman barang kepada penanggung jawab aset yang bersangkutan melalui mobile
+<div style="max-width: 400px; display:flex; flex-warp: warp; gap:20px; margin: 0 auto; padding-top: 20px">
+<div style="flex:1">
+<img src="peminjaman.jpg" style="width:200px;height:400px;">
+</div>
+<div style="flex:1">
+<img src="peminjaman2.jpg" style="width:200px;height:400px;">
+</div>
+</div>
 
-![champion akali](https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/en-gb/production/en-gb/static/assassin-d64d3ffdda15e1eed637aefe6a2c7fee.png#imgresponsive)
+2. Melakukan konfirmasi peminjaman barang melalui website oleh penanggung jawab
+<div style="max-width: 1000px;  display:flex; flex-warp: warp; gap:10px; margin: 0 auto; padding-top: 20px">
+<div style="flex:1">
+<img src="setujui.png">
+</div>
+<div style="flex:1">
+<img src="berhasil.png" >
+</div>
+</div>
 
-Fighter
-
-![champion Yassuo](https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/en-gb/production/en-gb/static/fighter-7a08920b696ecdb673edeeae1d3c616e.png#imgresponsive)
-
-Mage
-
-![champion lux](https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/en-gb/production/en-gb/static/mage-3bfa6dfe620adafe5e539c2e470f4acc.png#imgresponsive)
-
-support
-
-![champion akali](https://lolstatic-a.akamaihd.net/frontpage/apps/prod/harbinger-l10-website/en-gb/production/en-gb/static/support-d63ae08baf517425864ddc020a5871d5.png#imgresponsive)
-
-I'm sure I'll write a lot more interesting things in the future.
-
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
-
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
-
+---

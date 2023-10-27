@@ -2,21 +2,19 @@
   {
     "id": 0,
     "name": "github",
-    "url": "https://github.com/AbdaliDahir"
+    "icon":"/github.png",
+    "url": "https://github.com/annisasuprima/"
   },
   {
     "id": 1,
     "name": "linkedin",
-    "url": "https://www.linkedin.com/in/abdelali-dahir-0b5344111/"
-  },
-  {
-    "id": 2,
-    "name": "twitter",
-    "url": "https://twitter.com/AbdaliDahir"
+    "icon":"/linkedin.png",
+    "url": "https://www.linkedin.com/in/annisasuprima"
   },
   {
     "id": 3,
     "name": "instagram",
-    "url": "https://www.instagram.com/"
+    "icon": "/instagram.png",
+    "url": "https://www.instagram.com/annisasuprima/"
   }
 ]

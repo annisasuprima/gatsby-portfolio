@@ -16,7 +16,7 @@ const WorkIndex = ({ data }) => {
           <ContainerLayout>
 
             <SubTitle className="text-dark">
-              Selected Work
+              Projects
             </SubTitle>
 
             <ContainerLayout className="wrapper">

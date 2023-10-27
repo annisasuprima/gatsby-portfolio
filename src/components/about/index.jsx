@@ -1,28 +1,25 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import {AboutSection, Title, Text, SubTitle} from './style';
-import {SectionIntro, ContainerLayout, ResumeButton} from "../common";
-import ParticleImage, { 
-  Vector,
-  forces
-} from "react-particle-image";
+import { AboutSection, Title, Text, SubTitle } from "./style"
+import { SectionIntro, ContainerLayout, ResumeButton } from "../common"
+import ParticleImage, { Vector, forces } from "react-particle-image"
 
 // Round number up to nearest step for better canvas performance
-const round = (n, step = 20) => Math.ceil(n / step) * step;
+const round = (n, step = 20) => Math.ceil(n / step) * step
 
 // Try making me lower to see how performance degrades
-const STEP = 30;
+const STEP = 30
 
 const particleOptions = {
   filter: ({ x, y, image }) => {
     // Get pixel
-    const pixel = image.get(x, y);
+    const pixel = image.get(x, y)
     // Make a particle for this pixel if magnitude < 200 (range 0-255)
-    const magnitude = (pixel.r + pixel.g + pixel.b) / 3;
-    return magnitude < 200;
+    const magnitude = (pixel.r + pixel.g + pixel.b) / 3
+    return magnitude < 200
   },
   color: ({ x, y, image }) => {
-    const pixel = image.get(x, y);
+    const pixel = image.get(x, y)
     // Canvases are much more performant when painting as few colors as possible.
     // Use color of pixel as color for particle however round to nearest 30
     // to decrease the number of unique colors painted on the canvas.
@@ -32,26 +29,26 @@ const particleOptions = {
       ${round(pixel.g, STEP)}, 
       ${round(pixel.b, STEP)}, 
       ${round(pixel.a, STEP) / 255}
-    )`;
+    )`
   },
   radius: ({ x, y, image }) => {
-    const pixel = image.get(x, y);
-    const magnitude = (pixel.r + pixel.g + pixel.b) / 3;
+    const pixel = image.get(x, y)
+    const magnitude = (pixel.r + pixel.g + pixel.b) / 3
     // Lighter colors will have smaller radius
-    return 3 - (magnitude / 255) * 1.5;
+    return 3 - (magnitude / 255) * 1.5
   },
   mass: () => 40,
   friction: () => 0.15,
   initialPosition: ({ canvasDimensions }) => {
-    return new Vector(canvasDimensions.width / 2, canvasDimensions.height / 2);
-  }
-};
+    return new Vector(canvasDimensions.width / 2, canvasDimensions.height / 2)
+  },
+}
 
 const motionForce = (x, y) => {
-  return forces.disturbance(x, y, 7);
-};
+  return forces.disturbance(x, y, 7)
+}
 
-const src = "about.jpg";
+const src = "about.jpg"
 
 const About = () => {
   // const data = useStaticQuery(graphql`
@@ -70,9 +67,20 @@ const About = () => {
       <SectionIntro>
         <ContainerLayout>
           <AboutSection>
-            <div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
+              <img
+                src="about.jpg"
+                style={{ width: "400px", height: "450px", objectFit: "cover" }}
+              />
               {/* <Avatar fluid={data.placeholderImage.childImageSharp.fluid} alt="user photo" /> */}
-              <ParticleImage
+              {/* <ParticleImage
+
                 src={src}
                 width="400"
                 height="400"
@@ -83,18 +91,79 @@ const About = () => {
                 mouseMoveForce={motionForce}
                 touchMoveForce={motionForce}
                 backgroundColor={STEP}
-              />
-              <SubTitle> Full Stack Engineer. </SubTitle>
-              
-            </div> 
+              /> */}
+              <SubTitle> Web Developer. </SubTitle>
+            </div>
             <div>
-              <Title> Hello, I’m Abdelali </Title>
-              <Text> Full-Stack Engineer from <b className="text-primary lined-link">Morocco</b> </Text>
-              <Text>  Experienced Software Engineer Passionate about workability and learning with good technical experience Relational Database and multitude of NoSQL DBs, Java, Js, Data Structure, Algorithms. I'm seeking to learn more to get an experience and increase my knowledge stack to build stable and high scalable system with a strong information technology professional with a bachelor’s degree focused on computer science.
-              </Text> 
-              <Text> working with multi agencies on multi projects allowed me to better understand the expectations of clients and the needs of team members.</Text>
-              <Text>  The Only Thing I Know , is that i really know Nothing at all. </Text>
-              <ResumeButton href="resume.pdf" target="_blank"> Download resume </ResumeButton>
+              <Title> Hello, Saya Annisa Suprima </Title>
+              <Text>
+                {" "}
+                Fresh Graduate{" "}
+                <b className="text-primary lined-link">Sarjana Komputer</b>{" "}
+              </Text>
+              <Text style={{ textAlign: "justify" }}>
+                Lulusan S1 Sistem Informasi Universitas Andalas. Terbiasa
+                menggunakan paradigma OOP, memiliki pengalaman dalam pembuatan
+                website menggunakan laravel dan mobile development menggunakan
+                android studio, selain itu saya memiliki kemauan yang kuat untuk
+                terus belajar, serta bertanggung jawab atas apa yang dikerjakan
+                dan mampu bekerja dalam individu maupun kelompok
+              </Text>
+              <hr></hr>
+              <Text>
+                <b className="text-primary lined-link">Riwayat Pendidikan</b>{" "}
+              </Text>
+
+              <div
+                style={{
+                  display: "flex",
+                  flexWarp: "warp",
+                  gap: "50px",
+                  margin: "0 auto",
+                }}
+              >
+                <div style={{ flex: "1" }}>
+                  <Text style={{ textAlign: "justify" }}>
+                    Universitas Andalas<br></br>
+                    Jurusan Sistem Informasi
+                  </Text>
+                  <Text style={{ textAlign: "justify" }}></Text>
+                </div>
+                <div style={{ flex: "1" }}>
+                  <Text style={{ textAlign: "justify" }}>
+                    Agustus 2018 - Maret 2023 <br></br>
+                    IPK : 3.76
+                  </Text>
+                </div>
+              </div>
+
+              <div
+                style={{
+                  display: "flex",
+                  flexWarp: "warp",
+                  gap: "50px",
+                  margin: "0 auto",
+                }}
+              >
+                <div style={{ flex: "1" }}>
+                  <Text style={{ textAlign: "justify" }}>
+                    SMA Negeri 1 Gunung Talang<br></br>
+                    IPA
+                  </Text>
+                  <Text style={{ textAlign: "justify" }}></Text>
+                </div>
+                <div style={{ flex: "1" }}>
+                  <Text style={{ textAlign: "justify" }}>
+                    Juli 2015 - Mei 2018 <br></br>
+                    
+                  </Text>
+                </div>
+              </div>
+
+              <ResumeButton href="resume.pdf" target="_blank">
+                {" "}
+                Download CV{" "}
+              </ResumeButton>
             </div>
           </AboutSection>
         </ContainerLayout>
@@ -102,6 +171,5 @@ const About = () => {
     </>
   )
 }
-
 
 export default About

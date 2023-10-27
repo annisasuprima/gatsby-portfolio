@@ -1,29 +1,52 @@
 ---
-title: portfolio-work-3
-date: "2015-05-06T23:46:37.121Z"
-category: backend development
-tags: ['Adobe xd', 'css', 'js', 'dashboard']
-image: './blog-image.jpg'
-description: "Not only that, but the second address field also caused them to split their input incorrectly in the address fields. This led to confusion and frustration among users."  
+title: Sistem Informasi Logistik
+date: "2021-08-30T23:46:37.121Z"
+category: Web Developer
+tags: ['Laravel', 'php', 'web']
+image: './login-logout.JPG'
+description: "Pada 
+saat ini BPBD Sumatera Barat khususnya bidang Kedaruratan dan Logistik yang 
+memiliki tugas mengkoordinasikan dan melaksanakan kegiatan tanggap darurat 
+penanggulangan bencana, mengumpulkan data korban dan kerusakan di lokasi 
+bencana, serta mengelola bantuan logistik masih dilakukan secara manual 
+melalui Micrososft Excel, untuk itu pengelolaan tersebut dapat di 
+implementasikan sistem informasi. "  
 ---
 
-Have you ever filled out a form and froze on the address field? A [research study](https://baymard.com/blog/address-line-2) found that users come to a confusing stop when they encounter the “address line 2” field.
+<p style="text-align:justify;">Kantor Badan Penanggulangan Bencana Daerah (BPBD Sumatera Barat)
+merupakan instansi pemerintah yang melaksanakan tugas penanggulangan
+bencana di daerah Provinsi Sumatera Barat. BPBD Sumatera Barat
+melaksanakan kegiatan pencegahan melalui pendekatan hukum dan pengawasan
+pelaksanaan dari peraturan perundang-undangan tentang keamanan dan
+keselamatan yang berlaku dan melakukan segala upaya kegiatan pelatihan,
+penyiapan sarana dan prasarana serta dukungan logistik untuk menghadapi
+kemungkinan kegiatan penanganan bencana. Dalam menjalankan kegiatan
+tersebut, penerapan teknologi informasi sangatlah krusial, terutama untuk
+mengelola informasi yang merupakan aset berharga di era industri 4.0 ini. Pada
+saat ini BPBD Sumatera Barat khususnya bidang Kedaruratan dan Logistik yang
+memiliki tugas mengkoordinasikan dan melaksanakan kegiatan tanggap darurat
+penanggulangan bencana, mengumpulkan data korban dan kerusakan di lokasi
+bencana, serta mengelola bantuan logistik masih dilakukan secara manual
+melalui Micrososft Excel, untuk itu pengelolaan tersebut dapat di
+implementasikan sistem informasi. Oleh karena itu pembuatan aplikasi Sistem
+Informasi Logistik atau yang disingkat SILOGIS ini akan sangat membantu dan
+memberi kemudahan bagi para pegawai dalam melakukan pengkoordinasisan
+dan pengumpulan data yang dibutuhkan, mencetak berita acara serta melakukan
+pembukuan atau rekap setiap akhir bulan atau tahunnya. Aplikasi ini dibangun
+dengan menggunakan framework Laravel serta DBMS MySQL untuk basis data.
+Output yang diharapkan dari pembangunan aplikasi ini adalah mempermudah
+pihak BPBD Sumatera Barat dalam pengumpulan data barang ataupun transaksi
+barang masuk dan keluar, serta pembuatan rekap berita masuk dan berita keluar
+serta print berita acara masuk dan keluar yang ada di organisasi tersebut </p>
 
-![double_address_fields](./blog-image.jpg)
+Berikut saya lampirkan beberapa functional aplikasi logistik: 
+<div style="max-width: 1000px; display:flex; flex-warp: warp; gap:20px; margin: 0 auto; padding-top: 20px">
+<div style="flex:1">
+<img src="detailba.JPG" style="width:460px;height:240px;">
+</div>
+<div style="flex:1">
+<img src="TambahB.JPG" style="width:460px;height:240px;">
+</div>
+</div>
 
-Not only that, but the second address field also caused them to split their input incorrectly in the address fields. This led to confusion and frustration among users.
-
-Labeling the second address field “Apartment/Suite/Other” did not resolve the issue. Users still came to a confusing stop and wondered whether the field was relevant for them.
-
-Familiarity Principle
----------------------
-
-Having two address fields violates the principle of Familiarity that states the system should match the user’s real world expectations. When there’s a match, users can interpret the interface based on conventions they’re already familiar with.
-
-The second address field forces the user to type their address in the system’s preferred format, not the user’s. In the real world, users think of addresses as a single entity. Two text fields causes them to perceive their address as separate entities. Users don’t expect to see this which is why they get confused.
-
-
-Real World Expectations
------------------------
-
-It’s important to design your form based on the user’s real world expectations. If you force users to rethink conventions in order to match the system, you’ll confuse and frustrate them. Don’t force the user to follow the system, force the system to follow the user.
+---
